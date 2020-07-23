@@ -1,6 +1,6 @@
 # AKHAN NAMER
 # Website linK
-link https://github.com/Tu276/nathan_kirimi/deployments/activity_log?environment=github-pages
+link https://tu276.github.io/ip_two
 #### Site
 HTML website Friday July 17 2020
 feel free to add your name ... please do something of course **
