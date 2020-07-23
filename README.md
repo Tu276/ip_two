@@ -1,5 +1,5 @@
 # AKHAN NAMER
-# Website linK
+# Website link
 link https://tu276.github.io/ip_two
 #### Site
 HTML website Friday July 17 2020
