@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap</title>
+    <title>Akhan Namer</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link
     rel="stylesheet"
@@ -27,59 +27,63 @@
         </div>
         <div class="col-md-6">
           <div class="well">
-            <h2>Lorem Ipsum</h2>
+            <h2>Cultural Significance</h2>
+            <p>
+              Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their 
+              first name as a 'day name' which corresponds to the day in the week they were born. 
+              Here are examples of Ghanian day names. 
+            </p>
             <ul>
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Consectetur adipiscing elit</li>
-              <li>Integer finibus</li>
-              <li>Nisl tempus semper semper</li>
-              <li>Purus nisl hendrerit tellus</li>
+              <li>Sunday: (male) Kwasi</li>
+              <li>Friday: (male) Kofi</li>
+              <li>Tuesday: (male) Kwabena</li>
+              <li>Wednesday: (female) Akua</li>
+              <li>Friday: (female) Afua</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-6 ">
           <div class="card info">
             <div class="card-heading">
-              <h2 class="card-title">Et Consequat Magna</h2>
+              <h2 class="card-title">Enter your details</h2>
             </div>
             <div class="card-body">
-              <ul>
-                <li>Orci ut velit</li>
-                <li>Pellentesque cursus justo</li>
-                <li>In felis condimentum cursus</li>
-              </ul>
+              <div class="panel col-sm-6 offset">
+                <form>
+                      <div class="form-group top-form">
+                        <label for="cc" class="labels">Century</label>
+                        <input type="number" class="form-control" placeholder="Eg 1989 cc is 19" id="cc" required  min="0" max="30">
+                      </div>
+                      <div class="form-group">
+                        <label for="year" class="labels">Year</label>,,,,,,,,,,,,,,,,,,,,,,
+                        <input type="number" placeholder="eg 1989 YY is 89" class="form-control" id="year" required min="0" max="2020">
+                      </div>
+                      <div class="form-group">
+                        <label for="month" class="labels">Month</label>
+                        <input type="number" class="form-control" placeholder="Eg jan is 01 etc" id="month" required min="0" max="12">
+                      </div>
+                      <div class="form-group">
+                          <label for="monthDay" class="labels">Day of month</label>
+                          <input type="number" placeholder="Enter day MM" class="form-control" id="monthday" required min="0" max="31">
+                        </div>
+    
+                        <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+    
+                      <br>
+                      <button type="submit" name="button" class="btn btn-primary mb-2" onclick="checkweekday();">Calculate Birthday</button>
+                    </form>
+                  <h1 id="result"></h1>
+                </div>
+              </div>
             </div>
             <div class="card-footer">
-              <p>Card Footer</p>
+              <p>Happy Naming!</p>
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <h2>Nulla Semper Lorem</h2>
-            <ul>
-              <li>Proin dignissim lectus enim</li> 
-              <li>Eu bibendum mauris euismod in</li>
-              <li>Morbi dictum</li>
-              <li>Ex et malesuada pellentesque</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-          <h2 class="bg-success">Morbi Lacinia Mollis Tortor</h2>
-          <ul>
-            <li class="bg-danger">A sodales elit tempor ut</li>
-            <li>Ut elit augue</li>
-            <li>Imperdiet eu est faucibus</li>
-            <li class="bg-danger">Tristique hendrerit mi</li>
-            <li>Proin in ex lectus</li>
-            <li class="bg-danger">Donec accumsan in nisi non ultricies</li>
-          </ul>
-        </div>
-
-        <div class="progress">
-        <div class="progress-bar" role="progrssbar" aria-valuenow"60"
-        aria-valuemin="0" aria-valuemax="100" style="width: 60%;"> 60% Complete
       </div>
     </div>
   </body>
