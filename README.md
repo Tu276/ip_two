@@ -7,7 +7,9 @@ feel free to add your name ... please do something of course **
 ## Description
  Web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.   
 ## BDD
+An invalid day should be (d<=0) or (d>31)
 
+        An invalid month should be (m<= 0) or (m > 12)  
 
 ## Known Bugs
 There are no bugs that i know of  
