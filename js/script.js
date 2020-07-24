@@ -1,3 +1,4 @@
+// @ts-check
 var cc, year, month, date, weekday, day;
 function getInput(){
   cc = parseInt(document.getElementById("cc").value);
